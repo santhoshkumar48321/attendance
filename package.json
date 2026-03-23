@@ -1,0 +1,17 @@
+{
+  "name": "teams-attendance-tracker",
+  "version": "1.0.0",
+  "description": "Automated attendance tracker for Microsoft Teams meetings using Playwright",
+  "main": "tracker.js",
+  "scripts": {
+    "start": "node tracker.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "1.58.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
